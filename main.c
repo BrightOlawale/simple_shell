@@ -1,12 +1,4 @@
 #include "osh.h"
-#include "envstuff.c"
-#include "free_errors.c"
-#include "builtinsh.c"
-#include "gtline_token.c"
-#include "utility.c"
-#include "create_child.c"
-#include "prompt.c"
-
 
 /**
  * main - main loop of shell
