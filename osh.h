@@ -71,6 +71,11 @@ int cd_home(cmd_t *cmd);
 int cd_back(cmd_t *cmd);
 int cd_curr(cmd_t *cmd);
 int cd_parent(cmd_t *cmd);
+char *swap_char(char *input, int bool);
+void add_nodes(sep_t **head_s, line_t **head_l, char *input);
+void go_next(sep_t **list_s, line_t **list_l, cmd_t *cmd);
+int apply_seperators(cmd_t *cmd, char *input);
+
 
 
 /* prototypes for free functions */
